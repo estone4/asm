@@ -3,7 +3,7 @@
 
 
 
-%include	'functions.asm'
+%include	'../functions.asm'
 
 SECTION	.data
 msg1	db	'Jumping to finished label.', 0h
