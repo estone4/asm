@@ -3,7 +3,7 @@
 
 
 
-%include	'functions.asm'
+%include	'../functions.asm'
 
 SECTION	.data
 fizz	db	'Fizz', 0h	; a message string
