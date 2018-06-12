@@ -72,7 +72,6 @@ printLoop:
   pop	eax             ; restore eax from the value we pushed onto the stack at the start
   ret
 
-
 ;----------------------------------------
 ; void iprintLF(Integer number)
 ; Integer printing function with linefeed (itoa)
@@ -106,7 +105,6 @@ nextchar:
   pop	ebx
   ret
 
-
 ;----------------------------------------
 ; void sprint(String message)
 ; String printing function
@@ -130,7 +128,6 @@ sprint:
   pop	edx
   ret
 
-
 ;----------------------------------------
 ; void sprintLF(String message)
 ; String printing with line feed function
@@ -145,7 +142,6 @@ sprintLF:
   pop	eax		; remove our linefeed character from the stack
   pop	eax		; restore the original value of EAX before our function was called
   ret			; return to our program
-
 
 ;----------------------------------------
 ; void exit()
